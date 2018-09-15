@@ -56,4 +56,3 @@ def encriptar_cadena(cadena, k):
     for elemento in cadena:
         resultado.append(encriptar_caracter(elemento, k))
     return resultado
-
